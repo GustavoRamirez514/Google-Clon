@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+ font-size: 62.5%;
+ background-image: url('https://s4.aconvert.com/convert/p3r68-cdx67/ahfqj-76vpi.png');
+ background-size: 100%;
+ 
+ 
+ 
+}
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body .fondo{
+    opacity: 0.5;
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+}
+
+header nav{
+display: flex;
+justify-content: flex-end;
+}
+
+header nav .nav-derecha{
+    width: 25rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+nav .nav-derecha a{
+    margin-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: black
+}
+
+nav .nav-derecha .menu{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/109/109727.png?w=360');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+
+}   
+
+nav .nav-derecha img{
+    border-radius: 100%;
+    margin-left: 1rem;
+    padding-top: 2.3rem;
+}
+
+main{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+main .main-logo img{
+    width: 50rem;
+}
+
+main .main-input{
+    width: 61rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+main .main-input-contenedor{
+    width: 60rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-contenedor input{
+    width: 52rem;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-contenedor:hover{
+    box-shadow: 0 0.1rem 1rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input-contenedor .icono-buscador{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QxR3hB-gmEOfrHLygY_7uIWBsS8qmhiXzwATOikz39-PsRY1IWR4qf0eAnMrxq1G19A&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+main .main-input-contenedor .icono-microfono{
+    background-image: url('data:image/png;base64,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');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+main .main-botones{
+    width: 50rem;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+
+main .main-botones div{
+    display: inline-block;
+    padding: 0 1.5rem;;
+}
+
+main .main-botones button{
+    height: 3rem;
+    background-color: #f2f2f2;
+    border: 0.1rem solid #e4e4e4;
+    font-size: 1.5rem;
+    color: #5f6368;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main .main-botones button:hover{
+    border: 0.1rem solid #c6c6c6;
+    box-shadow: 0 0.1rem 1rem 0 #20212447;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #f2f2f2;
+    border-top: 0.1rem solid #e4e4e4;
+
+}
+
+footer ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+
+footer .footer-izquierda{
+    justify-self: left;
+}
+
+footer .footer-derecha{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 1rem;
+    color: #5f6368;
+}
